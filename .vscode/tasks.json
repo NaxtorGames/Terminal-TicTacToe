@@ -1,0 +1,33 @@
+{
+    "tasks": [
+      {
+        "type": "shell",
+        "label": "Build with GCC",
+        "command": "C:/mingw64/bin/g++.exe",
+        "args": [
+          "-g",
+          "${file}",
+          "-o",
+          "${workspaceFolder}${/}Build${/}${fileBasenameNoExtension}.exe"
+        ],
+        "options": {
+          "cwd": "C:/mingw64/bin"
+        }
+      },
+      {
+        "type": "shell",
+        "label": "(Build/Run) with GCC",
+        "command": "C:/mingw64/bin/g++.exe",
+        "args": [
+          "${file}",
+          "-o",
+          "${workspaceFolder}${/}Build${/}${fileBasenameNoExtension}.exe"
+        ],
+        "options": {
+          "cwd": "C:/mingw64/bin"
+        }
+      }
+    ],
+    "version":"2.0.0"
+  }
+  
