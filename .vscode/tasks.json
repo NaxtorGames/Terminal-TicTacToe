@@ -8,7 +8,7 @@
           "-g",
           "${file}",
           "-o",
-          "${workspaceFolder}${/}Build${/}${fileBasenameNoExtension}.exe"
+          "${workspaceFolder}${/}bin${/}${fileBasenameNoExtension}.exe"
         ],
         "options": {
           "cwd": "C:/mingw64/bin"
@@ -21,7 +21,7 @@
         "args": [
           "${file}",
           "-o",
-          "${workspaceFolder}${/}Build${/}${fileBasenameNoExtension}.exe"
+          "${workspaceFolder}${/}bin${/}${fileBasenameNoExtension}.exe"
         ],
         "options": {
           "cwd": "C:/mingw64/bin"
